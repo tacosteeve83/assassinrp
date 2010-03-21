@@ -7,7 +7,6 @@ ITEM.Model = "models/props_junk/PopCan01a.mdl"
 ITEM.Price = 20
 ITEM.CWU = true
 ITEM.UseAble = true
-ITEM.Weight = 1
 
 if ( SERVER ) then
 	function ITEM:UseEnt( ply )

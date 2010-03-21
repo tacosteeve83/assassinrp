@@ -1,8 +1,8 @@
 local ITEM = { }
 
-ITEM.Name = "Breen's Water"
+ITEM.Name = "Water"
 ITEM.UniqueID = "water"
-ITEM.Description = "A bottle of breen's water"
+ITEM.Description = "A bottle of water"
 ITEM.Model = "models/props_junk/garbage_glassbottle002a.mdl"
 ITEM.Price = 15
 ITEM.Business = true

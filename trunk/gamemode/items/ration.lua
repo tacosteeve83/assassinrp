@@ -2,12 +2,11 @@ local ITEM = { }
 
 ITEM.Name = "Ration"
 ITEM.UniqueID = "r09239830428"
-ITEM.Description = "Contains tokens and some food."
+ITEM.Description = "Contains some food and money."
 ITEM.Model = "models/weapons/w_package.mdl"
 ITEM.Price = 120
 ITEM.Business = false
 ITEM.UseAble = true
-ITEM.Weight = 1
 
 if ( SERVER ) then
 	function ITEM:UseEnt( ply )
