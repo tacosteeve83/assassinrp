@@ -8,7 +8,6 @@ ITEM.Price = 30
 ITEM.Business = true
 ITEM.BlackMarket = false
 ITEM.UseAble = true
-ITEM.Weight = 2
 
 if ( SERVER ) then
 	function ITEM:UseEnt( ply )

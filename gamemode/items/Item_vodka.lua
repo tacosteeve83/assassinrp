@@ -11,7 +11,7 @@ ITEM.UseAble = true
 
 if ( SERVER ) then
 	function ITEM:UseEnt( ply )
-		ply:SetHealth( ply:Health() - 10 )
+				ply:SetHealth( ply:Health() - 10 )
 	end
 end
 

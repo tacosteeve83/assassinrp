@@ -8,11 +8,10 @@ ITEM.Price = 25
 ITEM.Business = false
 ITEM.CWU = true
 ITEM.UseAble = true
-ITEM.Weight = 4
 
 if ( SERVER ) then
 	function ITEM:UseEnt( ply )
-		ply:SetHealth( ply:Health() + 100 )
+		ply:SetHealth( 100 )
 	end
 end
 

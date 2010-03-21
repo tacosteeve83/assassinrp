@@ -103,7 +103,7 @@ function CharacterCreateMenu()
 			return
 		else
 			LocalPlayer():ConCommand( "eng_setrpnick " .. FirstNameTextEntry:GetValue() .. " " .. LastNameTextEntry:GetValue() )
-			LocalPlayer( ):ConCommand( "rp_finishcharcreate " .. mdlSelection.Entity:GetModel() )
+			LocalPlayer():ConCommand( "rp_finishcharcreate " .. mdlSelection.Entity:GetModel() )
 			CharacterCreation:Remove( )
 		end
 	end
