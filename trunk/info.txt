@@ -1,13 +1,13 @@
 "Gamemode"
 {
-	"name"		"Kiwi (Chernobyl)"
+	"name"		"KiwiRP"
 	"version"	"1.0"
 
-	"author_name"	"Clark"
-	"author_email"	"clrk_sml@yahoo.com"
-	"author_url"	"www.Havoc-Gamers.tk"
+	"author_name"	"Assassin"
+	"author_email"	"zinde2@gmail.com"
+	"author_url"	""
 	
 	"icon"		""
-	"info"		"STALKER ROLEPLAY"
-	"hide"		"0"
+	"info"		""
+	"hide"		"1"
 }
