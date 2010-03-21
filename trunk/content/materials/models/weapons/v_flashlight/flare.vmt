@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/Weapons/v_flashlight/flare"
+	"$model" "1"
+	"$additive" 1
+
+}

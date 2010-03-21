@@ -11,6 +11,7 @@ ITEM.UseAble = false
 
 if ( SERVER ) then
 	function ITEM:UseEnt( ply )
+		ply:Give( "flashlight1" )
 	end
 end
 

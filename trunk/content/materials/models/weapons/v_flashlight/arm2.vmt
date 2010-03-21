@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/Weapons/v_flashlight/arm2"
+	"$bumpmap" "models/Weapons/v_flashlight/arm2_normal"
+}

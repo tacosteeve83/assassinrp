@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/Weapons/v_flashlight/flashlight2_hud"
+	"$additive" 1
+}
