@@ -5,13 +5,6 @@ function CharCreateSetRPNick( ply, cmd, args )
 end
 concommand.Add( "eng_setrpnick", CharCreateSetRPNick )
 
--- Set's the char title
-function CharCreateSetTitle( ply, cmd, args )
-	ply:SetNWString( "title", table.concat( args, " " ) )
-end
-concommand.Add( "eng_settitle", CharCreateSetTitle )
-
-
 -- Start chatting. Hacky fucking method for combine voder.
 function ChatOn( ply )
 	ply:SetNWBool( "ChatOpen", true )

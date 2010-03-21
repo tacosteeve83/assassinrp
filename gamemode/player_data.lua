@@ -129,24 +129,4 @@ function PMeta:GetCharField( fieldname )
 	end
 end
 
- --- Get the players inventory weight (The collected weight of all things in the players inventory)
-function PMeta:GetInventoryWeight ( )
-	local Weight = 0;
-	
-	for k, v in pairs(self:GetCurrentCharInventory()) do
-		if Items[ k ].Weight then
-			Weight = Weight + (Items[ k ].Weight * v);
-		else
-			print( 'ERROR: Missing item info for ' .. ply:Name() )
-		end
-	end
-	
-	return Weight;
-end
-
---- How much can the player carry?
-function PMeta:GetMaximumInventoryWeight ( )
-	return Config[ 'maxweight' ]
-end
-
 PMeta = nil
