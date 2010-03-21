@@ -7,7 +7,6 @@ Commands =
 	restartmap = "rp_restartmap",
 	setflag = "rp_setcombineflag",
 	rpnick = "rp_rpnick",
-	title = "rp_title",
 	givemoney = "rp_givemoney",
 	listflags = "rp_listflags",
 	spawnitem = "rp_spawnitem",
