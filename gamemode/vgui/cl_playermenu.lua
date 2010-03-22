@@ -99,7 +99,6 @@ DermaPanel:SetTitle("User Menu")
 DermaPanel:ShowCloseButton( true )
 DermaPanel:SetVisible( true )
 DermaPanel:SetDraggable( true )
-DermaPanel:ShowCloseButton( true )
 DermaPanel:MakePopup()
 	
 PropertySheet = vgui.Create( "DPropertySheet" )

@@ -1,17 +1,17 @@
 local ITEM = { }
 
-ITEM.Name = "Flashlight Battery"
+ITEM.Name = "Flashlight"
 ITEM.UniqueID = "flashlightbattery"
-ITEM.Description = "You need it to turn your flashlight on"
+ITEM.Description = "Assists in seeing things"
 ITEM.Model = "models/Items/combine_rifle_ammo01.mdl"
-ITEM.Price = 10
+ITEM.Price = 25
 ITEM.Business = true
 ITEM.CWU = true
-ITEM.UseAble = false
+ITEM.UseAble = true
 
 if ( SERVER ) then
 	function ITEM:UseEnt( ply )
-		ply:Give( "flashlight1" )
+	ply:Give( "flashlight" )
 	end
 end
 
