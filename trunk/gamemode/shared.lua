@@ -124,7 +124,3 @@ BlockedModels =
 	"models/props_c17/gravestone_coffinpiece001a.mdl",
 	"models/props_c17/gravestone_coffinpiece002a.mdl"
 }
-
-IA.Config = {};
-
-IA.Config["bindF1"] = false; -- Bind F1 to open inventory menu? false will turn it off.
