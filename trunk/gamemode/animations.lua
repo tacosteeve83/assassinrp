@@ -29,7 +29,7 @@ UsableHolstered =
 	"rp_pickup"
 }
 
-function HolsterToggle( ply )
+--[[function HolsterToggle( ply )
 
 	if( not NPC_ANIMS_ENABLED ) then return; end
 
@@ -131,7 +131,7 @@ function NPCPlayerThink()
 	end
 end
 hook.Add( "Think", "NPCPlayerThink", NPCPlayerThink );
-
+--]]
 
 NPCAnim = { }
 

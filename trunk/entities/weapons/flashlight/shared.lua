@@ -2,7 +2,7 @@ if (SERVER) then
 
 AddCSLuaFile ("shared.lua");
 
-SWEP.HoldType= "flashlight1"
+SWEP.HoldType= "flashlight"
 SWEP.AutoSwitchTo = false; 
 SWEP.AutoSwitchFrom = false;
 end
@@ -21,7 +21,7 @@ SWEP.Contact = "";
 SWEP.Purpose = "Assists in seeing things";
 SWEP.Instructions = "Left click to turn on/off";
 
-SWEP.Spawnable = true; 
+SWEP.Spawnable = false; 
 SWEP.AdminSpawnable = true;
 
 SWEP.ViewModel = "models/weapons/v_flashlight_on.mdl";
