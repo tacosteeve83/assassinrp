@@ -78,7 +78,9 @@ concommand.Add( "eng_dropitem", DropItem )
 
 -- Buy a item.
 function BuyItem( ply, cmd, args )
-	if ( ply.Tied or !ply:Alive() ) then return end
+	if ( ply.Tied or !ply:Alive() ) then 
+			ply:PrintChat( "You can't buy anything when you are dead/tied.", false )
+	return end
 
 	if ( Items[ args[ 1 ] ].Business and ply:GetNWInt( "Credits" ) >= Items[ args[ 1 ] ].Price ) then
 		ply:TakeCredits( Items[ args[ 1 ] ].Price )
@@ -91,7 +93,9 @@ end
 concommand.Add( "eng_buyitem", BuyItem )-- Buy a item.
 
 function BuyItem2( ply, cmd, args )
-	if ( ply.Tied or !ply:Alive() ) then return end
+	if ( ply.Tied or !ply:Alive() ) then 
+			ply:PrintChat( "You can't buy anything when you are dead/tied.", false )
+	return end
 
 	if ( ply:GetNWInt( "Credits" ) >= Items[ args[ 1 ] ].Price ) then
 		ply:TakeCredits( Items[ args[ 1 ] ].Price )
