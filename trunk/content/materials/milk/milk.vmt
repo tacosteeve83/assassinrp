@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "milk/milk"
+	"$bumpmap" "milk/milk_n"
+	"$surfaceprop" "paper"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "SRNgreyscale1"
+ 	"$phong" "1"
+	"$phongexponent" "45"
+	"$phongboost"	"1"
+	"$phongfresnelranges"	"[1 8 6]"
+}

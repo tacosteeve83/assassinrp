@@ -3,10 +3,10 @@ local ITEM = { }
 ITEM.Name = "Flashlight"
 ITEM.UniqueID = "flashlightbattery"
 ITEM.Description = "Assists in seeing things"
-ITEM.Model = "models/Items/combine_rifle_ammo01.mdl"
+ITEM.Model = "models/lagmite/lagmite.mdl"
 ITEM.Price = 25
 ITEM.Business = true
-ITEM.CWU = true
+ITEM.CWU = false
 ITEM.UseAble = true
 
 if ( SERVER ) then

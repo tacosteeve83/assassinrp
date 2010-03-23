@@ -87,7 +87,7 @@ function GM:HUDDrawTargetID()
 				end
 			end
 			if ( tr.Entity:GetModel() == 'models/props_misc/clock-1.mdl' or tr.Entity:GetModel() == 'models/props_trainstation/clock01.mdl' or tr.Entity:GetModel() == 'models/props_c17/clock01.mdl' or tr.Entity:GetModel() == 'models/props_combine/breenclock.mdl' or tr.Entity:GetModel() == 'models/props_trainstation/trainstation_clock001.mdl' ) then
-				local Alpha = math.Clamp( 100 - ( ( 10 / Distance ) * tr.Entity:GetPos():Distance( ply:GetShootPos() ) ), 0, 255 )
+				local Alpha = math.Clamp( 150 - ( ( 10 / Distance ) * tr.Entity:GetPos():Distance( ply:GetShootPos() ) ), 0, 255 )
 				local x, y = self:GetScreenCenterBounce()
 				
 				draw.DrawText( GetGlobalString( "time" ), "FontSmall", x, y, Color( 255, 0, 0, Alpha ) )
