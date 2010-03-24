@@ -169,3 +169,13 @@ COMBINE_WALK = {
 "npc/metropolice/gear5.wav",
 "npc/metropolice/gear6.wav"
 }
+
+function Salary()
+	for _, ply in pairs( player.GetAll() ) do
+		if ( ply:Alive() ) then
+			ply:GiveCredits( 125 )
+			ply:PrintChat( "Salary! You've earned 125 Coppers!", false )
+		end
+	end
+end
+timer.Create( "salary", 300, 0, Salary, ply )

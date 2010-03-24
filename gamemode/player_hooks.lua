@@ -306,7 +306,7 @@ function GM:PlayerSpawnedProp( ply, model, ent )
 	if ply:IsAdmin() then
 		return true
 	else
-		if ent:GetPhysicsObject():GetMass() > 200 then
+		if ent:GetPhysicsObject():GetMass() > 2000 then
 			ply:PrintChat( "Prop is too big" )
 		ent:Remove()
 	return false
