@@ -3,7 +3,7 @@ function IncludeResFolder( dir )
 	local files = file.FindInLua( "Kiwi/content/" .. dir .. "*" )
 
 	for k, v in pairs( files ) do
-		if( string.find( v, ".vmt" ) or string.find( v, ".vtf" ) or string.find( v, ".mdl" ) or string.find( v, ".dx90.vtx" ) or string.find( v, ".dx80.vtx" ) or string.find( v, ".phy" ) or string.find( v, ".sw.vtx" ) or string.find( v, ".vvd" ) ) then
+		if( string.find( v, ".vmt" ) or string.find( v, ".vtf" ) or string.find( v, ".wav" ) or string.find( v, ".mdl" ) or string.find( v, ".dx90.vtx" ) or string.find( v, ".dx80.vtx" ) or string.find( v, ".phy" ) or string.find( v, ".sw.vtx" ) or string.find( v, ".vvd" ) ) then
 			resource.AddFile( dir .. v )
 		end
 	end
