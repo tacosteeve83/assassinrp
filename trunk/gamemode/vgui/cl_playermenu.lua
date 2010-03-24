@@ -66,7 +66,7 @@ function PlayerMenu()
 			v.SpawnIcon:SetPos( 2, 2 )
 			v.SpawnIcon:SetIconSize( 35 )
 			v.SpawnIcon:SetModel( v:GetModel() )
-			v.SpawnIcon:SetToolTip( "Ping: " .. v:Ping() .. "\n" .. v:GetNWString( "credits" ) .. " dollars" )
+			v.SpawnIcon:SetToolTip( "Ping: " .. v:Ping() .. "\n" .. v:GetNWString( "credits" ) .. " Coppers" )
 			v.SpawnIcon:SetVisible( PlayerMenuFrame:IsVisible() )
 			
 			v.NameLabel = vgui.Create( "DLabel", v.DPanel )
@@ -134,7 +134,7 @@ PropertySheet:SetSize( DermaPanel:GetWide() - 5, DermaPanel:GetTall() - 33 )
 	DataList2:AddItem(label3);
 
 	local label4 = vgui.Create("DLabel");
-	label4:SetText("Dollars: " .. LocalPlayer():GetNWString("Credits"));
+	label4:SetText("Coppers: " .. LocalPlayer():GetNWString("Credits"));
 	DataList2:AddItem(label4);
 
 	local Divider = vgui.Create("DHorizontalDivider");
@@ -245,7 +245,7 @@ PropertySheet:SetSize( DermaPanel:GetWide() - 5, DermaPanel:GetTall() - 33 )
 			
 			local CostLabel = vgui.Create( "DLabel", ShopDPanel )
 			CostLabel:SetPos( 158, 52 )
-			CostLabel:SetText( "Price: " .. v.Price .. "$")
+			CostLabel:SetText( "Price: " .. v.Price .. " Coppers")
 			CostLabel:SetFont( "ChatFont" )
 			CostLabel:SetTextColor( Color( 0, 200, 0, 255 ) )
 			CostLabel:SizeToContents()

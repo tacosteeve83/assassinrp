@@ -155,7 +155,7 @@ local function DrawDeathColor()
 		tab[ "$pp_colour_addb" ] 		= 0
 		tab[ "$pp_colour_brightness" ] 	= 0
 		tab[ "$pp_colour_contrast" ] 	= 1.1
-		tab[ "$pp_colour_colour" ] 		= dcolor
+		tab[ "$pp_colour_colour" ] 		= color
 		tab[ "$pp_colour_mulr" ] 		= 0
 		tab[ "$pp_colour_mulg" ] 		= 0
 		tab[ "$pp_colour_mulb" ] 		= 0
@@ -188,7 +188,7 @@ function GM:HUDPaint( )
 	end
 	
 	draw.RoundedBox(4, hx -6, hy - 64, hw + 40, hh + 45, Color(0, 0, 0, 200))
-	draw.DrawText( LocalPlayer():Nick()  .. "\n" .. " " .. LocalPlayer():GetNWInt("credits") .. " Dollars", "KFont2", hx , hy - 59, Color(255, 255, 255, 200), 0)
+	draw.DrawText( LocalPlayer():Nick()  .. "\n" .. " " .. LocalPlayer():GetNWInt("credits") .. " Coppers", "KFont2", hx , hy - 59, Color(255, 255, 255, 200), 0)
 
 	DrawDamageColour()
 	DrawDeathColor()
