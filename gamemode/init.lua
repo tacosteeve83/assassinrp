@@ -143,17 +143,12 @@ end
 function GM:Think()
 end
 
-function GM:Tick()
-	for _, ply in pairs( player.GetAll() ) do
-		if ( ply:Health() < 30 ) then
-			ply:SetWalkSpeed( 100 )
-			ply:SetRunSpeed( 150 )
-		else
-			ply:SetWalkSpeed( Config[ "WalkSpeed" ] )
-			ply:SetRunSpeed( Config[ "RunSpeed" ] )
-		end
-	end
-end
+--function GM:Tick()
+--	for _, ply in pairs( player.GetAll() ) do
+--			ply:SetWalkSpeed( Config[ "WalkSpeed" ] )
+--			ply:SetRunSpeed( Config[ "RunSpeed" ] )
+--	end
+--end
 
 -- Don't allow the client to send datastreams to the server.
 function GM:AcceptStream( ply, handler, id )
