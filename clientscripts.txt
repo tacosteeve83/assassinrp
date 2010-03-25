@@ -3071,6 +3071,7 @@ kiwi\gamemode\items\cloth_rebelist.lua
 kiwi\gamemode\items\cloth_specna.lua
 kiwi\gamemode\items\cloth_ukantigas.lua
 kiwi\gamemode\items\cloth_usantigas.lua
+kiwi\gamemode\items\item_adrenaline.lua
 kiwi\gamemode\items\item_beans.lua
 kiwi\gamemode\items\item_beer.lua
 kiwi\gamemode\items\item_chinese.lua
